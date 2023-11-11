@@ -1,0 +1,7 @@
+python-dotenv
+langchain
+openai
+scrapingbee
+lxml
+beautifulsoup4
+feedparser

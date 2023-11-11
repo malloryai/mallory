@@ -1,0 +1,4 @@
+dev/.terraform
+dev/.terraform.lock.hcl
+dev/terraform.tfstate
+dev/terraform.tfstate.backup
