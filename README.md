@@ -23,10 +23,8 @@ Mallory relies on several external APIs, so you'll need to setup and configured 
  * OpenAI API (for access to gpt-3.5 model)
 
 Configure those keys in your profile with: 
-`
-export OPENAI_API_KEY=[KEY]
-export MALLORY_SCRAPING_BEE_KEY=[KEY]
-`
+`export OPENAI_API_KEY=[KEY]`
+`export MALLORY_SCRAPING_BEE_KEY=[KEY]`
 
 ### Additional Configuration 
 
@@ -40,13 +38,13 @@ Mallory is intended to run with many processes operating in parallel, passing me
 
 * (Beta) Collect RSS feeds (described in data/feeds.yml) & creating NewsItems (collect.py)
 * (Beta) Scrape Raw Content & Enriching NewsItems (enrich.py)
-* (Beta) Analyze NewsItems & Crafting NewsAnalysisResults (analyze.py)
+* (Beta) Analyze NewsItems & Crafting NewsAnalysisResults JSON (analyze.py)
 * (Alpha) Publish content to slack using (publish.py) < not yet well thought through
 * (Future) EventDB publisher - pushes to an event db for historical event record
-* (Future) GraphDB publisher - pushes to a grp
+* (Future) GraphDB publisher - parses JSON and pushes to a graph database (schema has not yet been defined)
 * (Future) GraphDB analyst - reviews recent additions to the graph and creates/adjusts/removes connections accordingly
 * (Future) Daily Digest analyst - reviews recent additions and crafts narrative of new / interesting connections
 
 ## Questions / Comments / Concerns? 
 
-Reach out via mallory.ai 
+Reach out via mallory@mallory.ai 
