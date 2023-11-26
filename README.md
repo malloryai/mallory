@@ -23,8 +23,8 @@ Mallory relies on several external APIs, so you'll need to setup and configured 
  * OpenAI API (for access to gpt-3.5 model)
 
 Configure those keys in your profile with: 
-`export OPENAI_API_KEY=[KEY]`
-`export MALLORY_SCRAPING_BEE_KEY=[KEY]`
+ * `export OPENAI_API_KEY=[KEY]`
+ * `export MALLORY_SCRAPING_BEE_KEY=[KEY]`
 
 ### Additional Configuration 
 
